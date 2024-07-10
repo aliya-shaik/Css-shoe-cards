@@ -8,16 +8,13 @@ body {
     font-family: roboto, sans-serif;
     background-color: #dae2e8;
     text-align: center;
-    margin: 100px;
-    margin-left: 470px;
+    margin: 100px auto;
     line-height: 2.5;
     font-weight: 100;
-    font-style: normal;
     max-width: 600px;
 }
 
 .card {
-
     background-color: white;
     margin: 20px;
     padding: 20px;
@@ -26,6 +23,7 @@ body {
     width: 550px; 
     border-radius: 10px;
     height: 180px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card .content {
